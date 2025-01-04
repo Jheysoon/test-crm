@@ -12,14 +12,18 @@
   },
   "dependencies": {
     "@supabase/supabase-js": "2.47.10",
+    "@tamagui/config": "1.121.5",
     "@tanstack/react-query": "5.62.11",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router": "7.1.1",
+    "react-router-typesafe-routes": "2.0.0",
+    "tamagui": "1.121.5",
     "zustand": "5.0.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
+    "@tamagui/vite-plugin": "1.121.5",
     "@types/react": "^19.0.2",
     "@types/react-dom": "^18.3.5",
     "@vitejs/plugin-react-swc": "^3.5.0",

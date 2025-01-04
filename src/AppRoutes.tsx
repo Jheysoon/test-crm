@@ -5,7 +5,7 @@ import { BrowserRouter, Routes as RouterRoutes, Route } from "react-router";
 import BaseLayout from "@/components/BaseLayout";
 import Login from "@/containers/Authentication/screens/Login";
 
-const Routes = () => {
+const AppRoutes = () => {
   return (
     <BrowserRouter>
       <RouterRoutes>
@@ -17,4 +17,4 @@ const Routes = () => {
   );
 };
 
-export default memo(Routes);
+export default memo(AppRoutes);
