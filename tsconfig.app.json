@@ -28,7 +28,10 @@
       "@/*": [
         "src/*"
       ]
-    }
+    },
+    "types": [
+      "react-native-web"
+    ]
   },
   "include": [
     "src"
